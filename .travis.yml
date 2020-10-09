@@ -19,7 +19,8 @@ deploy:
   provide: heroku
   skip_cleanup: true
   keep_history: true
-  api_key: 2086a21b-c86b-48fa-8b3e-991afb18cc43
+  api_key:
+    secure: "HxA9SHUlqDSGgse3A3YDvYdr6+ayo0lsDoUausGXEFYg5Xza1xW5a+MfSk29tAJzesvIH/O9ESH/nHkTasR5SCYHOqKjvk3ZEzeFOQpHo80d6uhT8NLcGZwcaQeyayLTLaUL3G+B1I9+z+qCXKAJlV4g5ioNpUnfESC+9GwWbY+e3j77SXhUiEjDEAy6uMls2S/IDMLUvUGYPPvmWE09IDXOi2mfb9WMq2TkMLDgk8QwznX72ZzuKeZZPE7N4PYlDCwSBrUb/jgzUSqrnMNYZB8lJpYnaOx6GokOr9VtKYlZpqMNwJYHlokzX5FreoYOGMdjBXNmkFmYRP6yhvIFKUWrKdMDpMG0d7pcrP7cXwmTfx+Cq5A+nD1S4dGMni2L9Zz3Pw/150xK/jiv6NcDWsl1qDcvSclEkMP20UbI5gK1VXYVN6jQVN20hKCT0jogyAIVqab80I3dA0+RGGjM8j+3Ahh4YokxhEZclUU8oVBNjTe48hIitZWwwuLz+zFhbz9hAzNtkhanIhf8t5oR1q0+SnrsiVGnYQS7hnWuZsGOT1C8v69OB5K6hrvM30Ym2M6nOf/ZKRTsIXfAc4I/wxInBUHnaMaEd3roDNFH6V3vjlCBizIETdAoVmQ7INtRCu99xjU4X/dP35Zt6bXIrlOCUbh/bS1jeQtJpghnWO4="
   app: platzi-backend
   on:
     repo: rafaqtro/platzi-store-backend
