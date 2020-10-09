@@ -1,0 +1,27 @@
+language: node_js
+cache: 
+  directories:
+    - node_modules
+    - ~/.npm
+node_js: 
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - rafaqtro@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provide: heroku
+  skip_cleanup: true
+  keep_history: true
+  api_key: 2086a21b-c86b-48fa-8b3e-991afb18cc43
+  app: platzi-backend
+  on:
+    repo: rafaqtro/platzi-store-backend
+    
+
